@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstart"
+    android:backgroundTint="#D9BF1022"
+    android:backgroundTintMode="src_atop"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+android:id="@+id/res1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Umumiy  tajovuzkorlik"
+        android:textColor="#fff"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/res2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Qasos olishga moyillik"
+        android:textColor="#fff"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Umumiy agressiya"
+        android:textColor="#fff"
+        android:textSize="21sp" />
+
+
+    <TextView
+        android:id="@+id/result3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <ImageView
+
+        android:id="@+id/emotion"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="emotion"
+        android:src="@drawable/smile"
+        android:visibility="gone" />
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/cardBtn"
+        style="@style/CardViews"
+        android:layout_width="match_parent"
+       >
+
+        <Button
+            android:id="@+id/btnR"
+            style="@style/button.LogIn"
+            android:layout_height="wrap_content"
+            android:text="Resurslar"
+            android:textColor="#D9BF1022"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

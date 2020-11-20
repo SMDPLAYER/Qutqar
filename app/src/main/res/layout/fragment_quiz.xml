@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstart"
+    android:backgroundTint="#D9BF1022"
+    android:backgroundTintMode="src_atop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewButtonSignUp"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Agressiya to'g'risida me'yoriy e'tiqodlar."
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Zo'ravonlikka munosabat"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Bilim, menejment va shaxsiy tabiat (KMPM) so'rovnomasi"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Ayollarga bo'lgan munosabat"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Zo'ravonlik niyatlari - o'spirinlar o'rtasidagi mojarolarni o'rganish" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView6"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Ijtimoiy javobgarlik"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView7"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="Bolalarni nazorat qilish istagi" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView8"
+            style="@style/CardViews"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/button.SignUp"
+                android:layout_height="150dp"
+              
+                android:paddingHorizontal="20dp"
+                android:text="G'amxo'rlik mavjudligi - individual himoya omillari indeksi"
+
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

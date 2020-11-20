@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgstart"
+    android:backgroundTint="#D9BF1022"
+    android:backgroundTintMode="src_atop"
+
+    tools:ignore="UnusedAttribute">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewButtonSignUp"
+        style="@style/CardViews"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toTopOf="@id/cardViewButtonLogIn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/btnTest"
+            style="@style/button.SignUp"
+            android:paddingHorizontal="20dp"
+            android:textSize="24sp"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewButtonLogIn"
+        style="@style/CardViews"
+        android:layout_width="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnResource"
+            style="@style/button.LogIn"
+            android:layout_height="wrap_content"
+            android:text="Resources"
+            android:textColor="#D9BF1022"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewButtonAlert"
+        style="@style/CardViews"
+
+        android:layout_width="match_parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewButtonLogIn">
+
+        <Button
+            android:id="@+id/btnHelp"
+            style="@style/button.LogIn"
+            android:layout_height="wrap_content"
+            android:text="Emergency help (SOS)"
+            android:textColor="#D9BF1022"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="2020"
+        android:textAlignment="center"
+        android:textColor="#A5A4A4"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
