@@ -1,4 +1,4 @@
-package uz.smd.hakaton.local
+package uz.smd.hakaton.data.local
 
 import android.content.Context
 

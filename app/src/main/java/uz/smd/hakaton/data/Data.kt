@@ -1,4 +1,4 @@
-package uz.smd.hakaton
+package uz.smd.hakaton.data
 
 data class Data1(
     var question: String,

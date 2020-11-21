@@ -1,7 +1,7 @@
 package uz.smd.hakaton.app
 
 import android.app.Application
-import uz.smd.hakaton.local.LocalStorage
+import uz.smd.hakaton.data.local.LocalStorage
 
 class App : Application() {
     override fun onCreate() {

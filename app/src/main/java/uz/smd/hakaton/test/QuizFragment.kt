@@ -1,10 +1,11 @@
-package uz.smd.hakaton
+package uz.smd.hakaton.test
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_quiz.*
-import uz.smd.hakaton.local.LocalStorage
+import uz.smd.hakaton.R
+import uz.smd.hakaton.data.local.LocalStorage
 import uz.smd.hakaton.utils.next
 
 class QuizFragment:Fragment(R.layout.fragment_quiz) {
@@ -24,11 +25,27 @@ clickListener()
             next(TestFragment(),"t")
         }
         btn3.setOnClickListener {
-            local.quiz=3
+            local.quiz=1
             next(TestFragment(),"t")
         }
         btn4.setOnClickListener {
             local.quiz=4
+            next(TestFragment(),"t")
+        }
+        btn5.setOnClickListener {
+            local.quiz=5
+            next(TestFragment(),"t")
+        }
+        btn6.setOnClickListener {
+            local.quiz=7
+            next(TestFragment(),"t")
+        }
+        btn7.setOnClickListener {
+            local.quiz=6
+            next(TestFragment(),"t")
+        }
+        btn8.setOnClickListener {
+            local.quiz=8
             next(TestFragment(),"t")
         }
     }
